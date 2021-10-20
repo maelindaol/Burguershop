@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    }
+
+/*--- ENCABEZADO ---*/
+header {
+    background-color: #512e04;
+    flex-basis: 15vh;
+    display: flex;
+}
+
+.logo{
+    color: #ffb400;
+    padding: 1% 1% 1% 1%;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.menu {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    padding-left: 4%;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.menu li {
+    padding-right: 5rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: #ffb400;
+}
+
+/*--- PRINICIPAL ---*/
+main {
+    display: flex;
+    flex-basis: 80vh;
+}
+
+.contenido {
+    display: flex;
+    padding: 5% 0 3% 11%;
+    flex-direction: column;
+    flex-basis: 40%;
+}
+
+.contenido h2 {
+    color: #512e04;
+    font-weight: 400;
+    font-size: 3.7rem;
+}
+
+.contenido h3 {
+    color: #ffb400;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.contenido .botones {
+    padding-top: 20px;
+}
+
+.contenido p {
+    padding-top: 3px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #8f602c;
+    
+}
+
+.botones .izq{
+    border: 2px solid #8f602c;
+    color: white;
+    background: #8f602c;
+    width: 120px;
+    border-radius: 20px;
+    padding: 0.6rem 0 0.6rem 0;
+    font-weight: bolder;
+    font-size: 0.7rem;
+}
+
+.botones .izq:hover {
+    border: 1px solid #ffb400;
+    background-color: #ffb400;
+    cursor: pointer;
+}
+
+.botones .der{
+    border: 2px solid #8f602c;
+    color: #8f602c;
+    background: white;
+    width: 120px;
+    border-radius: 20px;
+    padding: 0.6rem 0 0.6rem 0;
+    font-weight: bolder;
+    font-size: 0.7rem;
+}
+
+.botones .der:hover {
+    border: 1px solid #ffb400;
+    background-color: #ffb400;
+    cursor: pointer;
+    color: white;
+}
+.imagen {
+    position: absolute;
+    top: -9%;
+    right: 0;
+    z-index: 1;
+    width: 33%;
+}
+
+/*--- PIE DE PAGINA ---*/
+footer {
+    display: flex;
+    flex-basis: 5vh;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+footer p {
+    font-size: 1rem;
+    color: black;
+    padding-left: 1%;
+}
+
